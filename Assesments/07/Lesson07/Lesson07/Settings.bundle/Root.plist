@@ -16,11 +16,11 @@
 			<key>AutocorrectionType</key>
 			<string>No</string>
 			<key>DefaultValue</key>
-			<string></string>
+			<string>cat</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>Key</key>
-			<string>settings_name</string>
+			<string>settingsString</string>
 			<key>KeyboardType</key>
 			<string>Alphabet</string>
 			<key>Title</key>
@@ -30,9 +30,9 @@
 		</dict>
 		<dict>
 			<key>DefaultValue</key>
-			<real>0.5</real>
+			<real>0.4</real>
 			<key>Key</key>
-			<string>settings_slider</string>
+			<string>settingsSlider</string>
 			<key>MaximumValue</key>
 			<integer>1</integer>
 			<key>MaximumValueImage</key>
