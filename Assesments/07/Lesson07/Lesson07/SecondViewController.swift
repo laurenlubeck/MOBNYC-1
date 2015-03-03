@@ -24,17 +24,19 @@ class SecondViewController: UIViewController {
         //create variables for the settings string and settings slider
         var settingsName = userDefaults.stringForKey("settingsString")
         var sliderNumber = userDefaults.floatForKey("settingsSlider")
+        var name: String
         
         // print the settings string and settings slider
-        if let name: String? = settingsName {
-        
-                secondTextView.text = "Name: \(name!), Slider: \(sliderNumber)"
-                
-                // print settings string and slider
+        if let name = settingsName {
+            
+            // print settings string and slider and name to ensure variables exist
             println(settingsName)
             println(sliderNumber)
+            println(name)
+            
+            // display in text box
+            secondTextView.text = "Name: \(name) Slider: \(sliderNumber)"
         }
-
     }
 
 @IBAction func didTapSettings(sender: AnyObject) {
