@@ -15,6 +15,7 @@
 		5D713EFC1A9E57920091446D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D713EFA1A9E57920091446D /* LaunchScreen.xib */; };
 		5D713F081A9E57920091446D /* RESTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D713F071A9E57920091446D /* RESTTests.swift */; };
 		5D713F121A9E602E0091446D /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D713F111A9E602E0091446D /* WebViewController.swift */; };
+		C820B2721AB0A37F00361702 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C820B2711AB0A37F00361702 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		5D713F061A9E57920091446D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D713F071A9E57920091446D /* RESTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTTests.swift; sourceTree = "<group>"; };
 		5D713F111A9E602E0091446D /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		C820B2711AB0A37F00361702 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		D8272DA063A83C547C5B98AA /* Pods-REST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-REST/Pods-REST.debug.xcconfig"; sourceTree = "<group>"; };
 		DB5AFB6314FD7EDE6F587390 /* Pods_REST.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_REST.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB107FAF3313626A08D9ABD5 /* Pods-REST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-REST.release.xcconfig"; path = "Pods/Target Support Files/Pods-REST/Pods-REST.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				5D713EF11A9E57920091446D /* AppDelegate.swift */,
 				5D713EF31A9E57920091446D /* ViewController.swift */,
+				C820B2711AB0A37F00361702 /* Podfile */,
 				5D713EF51A9E57920091446D /* Main.storyboard */,
 				5D713EF81A9E57920091446D /* Images.xcassets */,
 				5D713EFA1A9E57920091446D /* LaunchScreen.xib */,
@@ -224,6 +227,7 @@
 			files = (
 				5D713EF71A9E57920091446D /* Main.storyboard in Resources */,
 				5D713EFC1A9E57920091446D /* LaunchScreen.xib in Resources */,
+				C820B2721AB0A37F00361702 /* Podfile in Resources */,
 				5D713EF91A9E57920091446D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
